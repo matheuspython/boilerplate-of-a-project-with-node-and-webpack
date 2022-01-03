@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-of-a-project-with-node-and-webpack",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon --ignore public --ignore frontend",
     "webp": "webpack -w"
