@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate-of-a-project-with-node-and-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ignore public --ignore frontend",
+    "webp": "webpack -w"
+  },
+  "repository": "https://github.com/matheuspython/boilerplate-of-a-project-with-node-and-webpack.git",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "core-js": "^3.20.0",
+    "css-loader": "^6.5.1",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
